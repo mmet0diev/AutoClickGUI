@@ -15,9 +15,10 @@ public class GUI extends VBox{
 
         this.setAlignment(Pos.CENTER);
         this.setPrefSize(200, 100);
+        this.setSpacing(8);
 
         txtCount = new TextField();
-        txtCount.setMaxSize(30,50);
+        txtCount.setMaxSize(50,50);
 
         btns = new ButtonBar();
 

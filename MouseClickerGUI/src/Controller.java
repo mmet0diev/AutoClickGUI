@@ -25,8 +25,8 @@ public class Controller extends Application {
     }
 
     public void start(Stage stage) {
-        stage.setMaxHeight(200);
-        stage.setMaxWidth(250);
+        stage.setMaxHeight(250);
+        stage.setMaxWidth(300);
         stage.setResizable(false);
 
         stage.setTitle("Auto-Clicker-GUI");
